@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+}
+.main-menu, .contato {
+  list-style: none;
+}
+.main-nav {
+  display: flex;
+  aling-itens: center;
+  justify-content: space-around;
+  height: 50px;
+  padding: 0px 0px;
+  font-size: 14px;
+}
+.main-nav #lista{
+  display: flex;
+  mmargin: 0px;
+  position: relative;
+}
+.main-nav .main-menu #a2{
+  padding: 0px 14.5em;
+  display: flex;
+}
+.main-nav .main-menu {
+  flex: 1;
+}
+.main-menu h1 {
+  background-color: #7FFFD4;
+  border-radius: 20px 50px;
+  margin-top: 25px;
+  width:200px;
+  padding: 0px 40px 0px 40px;
+  display: flex;
+  position: relative;
+}
+img {
+  height: 50px;
+  margin-top: 16px;
+}
+.main-menu .contato li {
+  padding: 0px;
+  margin-top: 8px;
+}
+.contato #mail {
+  background-color: #7FFFD4;
+  border-radius: 20px 50px;
+  margin-top: 5px;
+  padding: 0px 4em 0px 3em;
+  font-family: OCR A Std, monospace;
+  color: black;
+}
+.contato #telefone {
+  background-color: #7FFFD4;
+  border-radius: 20px 50px;
+  background-size: cover;
+  margin-top: 5px;
+  padding: 0px 3em 0px 3em;
+  font-family: OCR A Std, monospace;
+  color: black;
+}
+.contato #title {
+  background-color: #7FFFD4;
+  border-radius: 20px 50px;
+  background-size: cover;
+  margin-top: 7px;
+  padding: 0px 3em 0px 3em;
+  font-family: OCR A Std, monospace;
+  color: black;
+}
+a {
+  color: #262626;
+  text-decoration: none;
+}
+div {
+ background-color: #2C5680;
+ display: flex;
+ height: 100%;
+ width: 100%;
+ padding-top: 0px;
+ padding-bottom: 35px;
+ 
+}
+body {
+  background-color: #7FFFD4;
+  height: 100%;
+  width: 100%;
+}
+
+
