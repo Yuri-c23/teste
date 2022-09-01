@@ -6,7 +6,6 @@
 }
 .main-nav {
   display: flex;
-  aling-itens: center;
   justify-content: space-around;
   height: 50px;
   padding: 0px 0px;
@@ -14,11 +13,10 @@
 }
 .main-nav #lista{
   display: flex;
-  mmargin: 0px;
-  position: relative;
+  margin: 0px;
 }
 .main-nav .main-menu #a2{
-  padding: 0px 14.5em;
+  padding: 0px 14em;
   display: flex;
 }
 .main-nav .main-menu {
@@ -80,10 +78,49 @@ div {
  padding-bottom: 35px;
  
 }
+
+@media screen and (max-width:415px) {
+    div {
+        background-color: #2C5680;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 35px;
+        font-size: 8px;
+    }
+  .main-nav {
+    font-size: 8px;
+  }
+  .main-nav #lista {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+  }
+  .main-menu .contato li {
+  padding: 0px;
+  margin-top: 15px;
+  position: relative;
+  left: -45px;
+}
+  .main-nav .main-menu #a2{
+  padding: 0px 5vw;
+  display: block;
+  margin: 0px;
+}
+  .main-menu h1 {
+  background-color: #7FFFD4;
+  border-radius: 20px 20px;
+  margin-top: 3vh;
+  width: 112px;
+  padding: 0px 1vw;
+  display: flex;
+  position: relative;
+  left: -35px;
+}
+}
 body {
   background-color: #7FFFD4;
   height: 100%;
   width: 100%;
 }
-
-
