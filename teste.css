@@ -73,7 +73,7 @@ div {
  background-color: #2C5680;
  display: flex;
  height: 100%;
- width: 100%;
+ width: 100vw;
  padding-top: 0px;
  padding-bottom: 35px;
  
