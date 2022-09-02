@@ -34,10 +34,12 @@
 img {
   height: 50px;
   margin-top: 16px;
+  
 }
 .main-menu .contato li {
   padding: 0px;
   margin-top: 8px;
+  
 }
 .contato #mail {
   background-color: #7FFFD4;
@@ -72,8 +74,7 @@ a {
 div {
  background-color: #2C5680;
  display: flex;
- height: 100%;
- width: 100vw;
+ width: 100%;
  padding-top: 0px;
  padding-bottom: 35px;
  
@@ -82,12 +83,13 @@ div {
 @media screen and (max-width:415px) {
     div {
         background-color: #2C5680;
+        flex-direction: in-line;
         display: flex;
-        height: 100%;
-        width: 100%;
+        width: 100vw;
         padding-top: 0px;
         padding-bottom: 35px;
         font-size: 8px;
+        text-align: center;
     }
   .main-nav {
     font-size: 8px;
@@ -101,26 +103,38 @@ div {
   padding: 0px;
   margin-top: 15px;
   position: relative;
-  left: -45px;
+  display: block;
+  left: -8vw;
+  margin-left: 3px;
 }
   .main-nav .main-menu #a2{
-  padding: 0px 5vw;
-  display: block;
+  padding: 0px 3vw;
+  position: absolute;
+  display: inline-block;
   margin: 0px;
+  left: -15px;
+  
 }
   .main-menu h1 {
   background-color: #7FFFD4;
-  border-radius: 20px 20px;
-  margin-top: 3vh;
-  width: 120px;
-  padding: 0px 1vw;
-  display: flex;
-  position: relative;
-  left: -35px;
+  border-radius: 20px 50px;
+  text-align: center;
+  margin-top: 3vh ;
+  padding: 1px 5px 1px 5px;
+  width: auto;
+  display: block;
+  margin-left: 40vw
+  
+}
+img {
+  height: 50px;
+  margin-top: 16px;
+  padding: 0px 0px;
+  margin-left: 85vw;
 }
 }
 body {
   background-color: #7FFFD4;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
