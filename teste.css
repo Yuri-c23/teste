@@ -16,8 +16,11 @@
   margin: 0px;
 }
 .main-nav .main-menu #a2{
-  padding: 0px 14em;
-  display: flex;
+  padding: 0px 3vw;
+  position: absolute;
+  display: inline-block;
+  margin: 0px;
+  left: -15px;
 }
 .main-nav .main-menu {
   flex: 1;
@@ -25,20 +28,23 @@
 .main-menu h1 {
   background-color: #7FFFD4;
   border-radius: 20px 50px;
+  text-align: center;
   margin-top: 25px;
-  width:200px;
-  padding: 0px 40px 0px 40px;
-  display: flex;
-  position: relative;
+  padding: 1px 5px 1px 5px;
+  width: auto;
+  display: block;
+  margin-left: 42vw;
 }
 img {
   height: 50px;
   margin-top: 16px;
-  
+  padding: 0px 0px;
+  margin-left: 90vw;
 }
 .main-menu .contato li {
   padding: 0px;
   margin-top: 8px;
+  margin-left: -3vw;
   
 }
 .contato #mail {
@@ -73,10 +79,12 @@ a {
 }
 div {
  background-color: #2C5680;
+ flex-direction: in-line;
  display: flex;
- width: 100%;
+ width: 100vw;
  padding-top: 0px;
  padding-bottom: 35px;
+ text-align: center;
  
 }
 
@@ -116,14 +124,12 @@ div {
   
 }
   .main-menu h1 {
-  background-color: #7FFFD4;
-  border-radius: 20px 50px;
   text-align: center;
   margin-top: 3vh ;
   padding: 1px 5px 1px 5px;
   width: auto;
   display: block;
-  margin-left: 36vw
+  margin-left: 35vw
   
 }
 img {
