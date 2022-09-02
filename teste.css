@@ -14,12 +14,13 @@
   display: flex;
   margin: 0px;
 }
-.main-nav .main-menu #a2{
-  padding: 0px 3vw;
+#a3 {
+  padding: 0px 2vw;
   position: absolute;
   display: inline-block;
   margin: 0px;
   left: -15px;
+  flex-direction: in-line
 }
 .main-nav .main-menu {
   flex: 1;
@@ -34,11 +35,13 @@
   display: block;
   margin-left: 42vw;
 }
-img {
+#dog {
   height: 50px;
   margin-top: 16px;
   padding: 0px 0px;
   margin-left: 90vw;
+  display: flex;
+  flex-direction: in-line; 
 }
 .main-menu .contato li {
   padding: 0px;
