@@ -6,7 +6,6 @@
 }
 .main-nav {
   display: flex;
-  justify-content: space-around;
   height: 50px;
   padding: 0px 0px;
   font-size: 14px;
@@ -89,26 +88,14 @@ div {
 }
 
 @media screen and (max-width:415px) {
-    div {
-        background-color: #2C5680;
-        flex-direction: in-line;
-        display: flex;
-        width: 100vw;
-        padding-top: 0px;
-        padding-bottom: 35px;
-        font-size: 8px;
-        text-align: center;
-    }
   .main-nav {
     font-size: 8px;
   }
   .main-nav #lista {
         width: 100%;
-        margin: 0px;
         padding: 0px;
   }
   .main-menu .contato li {
-  padding: 0px;
   margin-top: 15px;
   position: relative;
   display: block;
@@ -117,25 +104,14 @@ div {
 }
   .main-nav .main-menu #a2{
   padding: 0px 3vw;
-  position: absolute;
-  display: inline-block;
-  margin: 0px;
   left: -15px;
   
 }
   .main-menu h1 {
-  text-align: center;
-  margin-top: 3vh ;
-  padding: 1px 5px 1px 5px;
-  width: auto;
-  display: block;
-  margin-left: 35vw
-  
+  margin-top: 3vh;
+  margin-left: 38vw  
 }
 img {
-  height: 50px;
-  margin-top: 16px;
-  padding: 0px 0px;
   margin-left: 85vw;
 }
 }
