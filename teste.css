@@ -43,13 +43,13 @@ img {
   
 }
 .contato #mail {
-  padding: 0px 4em 0px 3em;
+  padding: 0px;
 }
 .contato #telefone {
-  padding: 0px 3em 0px 3em;
+  padding: 0px;
 }
 .contato #title {
-  padding: 0px 3em 0px 3em;
+  padding: 0px 4em 0px 4em;
 }
 a {
   color: #262626;
@@ -89,10 +89,15 @@ div {
 }
   .main-menu h1 {
   margin-top: 3vh; 
-  margin-left: 15px;
+  margin-left: 0;
   margin-right: 50px;
-  left: 34vw;
+  left: 32%;
+  ceter: 0px;
+  
 }
+.contato #title {
+  padding: 0px 5vw 0px 5vw;
+  }
 img {
   height: 40px;
   margin-top: 20px;
